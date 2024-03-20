@@ -3,7 +3,7 @@
     <div
       class="flex items-center gap-72 max-[1224px]:flex-col max-[1224px]:gap-0 max-[1224px]:text-center"
     >
-      <img
+      <NuxtImg
         class="max-[1224px]:w-60 max-[1224px]:mb-5 max-[450px]:w-40"
         :src="store.img"
         alt=""
