@@ -5,7 +5,7 @@
       "images": {
         "provider" : "netlify",
         "netlify"  :{
-          "baseURL" : "./assets/destination/image-moon.png"
+          "baseURL" : "_nuxt/assets/destination/image-moon.png"
         },
         "png": "./assets/destination/image-moon.png",
         "webp": "./assets/destination/image-moon.webp"
