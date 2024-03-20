@@ -3,6 +3,10 @@
     {
       "name": "Moon",
       "images": {
+        "provider" : "netlify",
+        "netlify"  :{
+          "baseURL" : "./assets/destination/image-moon.png"
+        },
         "png": "./assets/destination/image-moon.png",
         "webp": "./assets/destination/image-moon.webp"
       },

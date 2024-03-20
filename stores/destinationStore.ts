@@ -6,7 +6,7 @@ export const destinationStore = defineStore("myDestinationStore", () => {
   const desc = ref(description);
   const dist = ref(distance);
   const voyage = ref(travel);
-  const img = ref(images.png);
+  const img = ref(images.netlify.baseURL);
   const activeIndex = ref(0);
   function updateElem(i: number) {
     const { name, description, distance, travel, images } =
