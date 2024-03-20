@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
   },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-viewport", "@pinia/nuxt"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-viewport", "@pinia/nuxt", "@nuxt/image"],
   pinia: {
     storesDirs: ["./stores/**", "./custom-folder/stores/**"],
   },

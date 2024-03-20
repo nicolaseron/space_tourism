@@ -42,7 +42,7 @@
         {{ store.desc }}
       </p>
     </div>
-    <img
+    <NuxtImg
       class="absolute right-0 top-64 max-[1370px]:w-96 max-[1040px]:static max-[1040px]:-start-0 order-2 max-[1040px]:order-1 max-[1040px]:w-screen max-[1040px]:h-60"
       :src="store.img"
     />

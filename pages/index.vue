@@ -1,6 +1,6 @@
 <template>
   <main>
-    <img
+    <NuxtImg
       :src="store.bgFont"
       id="bg_font"
       class="w-full h-screen absolute -z-10"
@@ -42,9 +42,9 @@
 <script setup lang="ts">
 const store = myStore();
 const imageSources = {
-  small: "_nuxt/assets/home/background-home-mobile.jpg",
-  medium: "_nuxt/assets/home/background-home-tablet.jpg",
-  large: "_nuxt/assets/home/background-home-desktop.jpg",
+  small: "home/background-home-mobile.jpg",
+  medium: "home/background-home-tablet.jpg",
+  large: "home/background-home-desktop.jpg",
 };
 store.setData(imageSources);
 </script>

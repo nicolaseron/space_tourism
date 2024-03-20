@@ -37,7 +37,7 @@
         ></button>
       </div>
     </div>
-    <img
+    <NuxtImg
       class="fixed bottom-0 right-64 max-[1500px]:right-10 max-[1280px]:right-1/2 max-[1280px]:translate-x-1/2 max-[1280px]:bottom-0 max-[1280px]:h-2/5"
       :src="store.img"
     />

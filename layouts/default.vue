@@ -1,7 +1,7 @@
 <template>
   <nav class="pt-10 pl-10">
     <div class="flex items-center justify-between">
-      <img src="../assets/shared/logo.svg" />
+      <NuxtImg src="../assets/shared/logo.svg" />
       <div
         class="w-[37%] ml-32 border absolute z-10 border-[#363636] max-[1400px]:hidden"
       ></div>
@@ -34,7 +34,7 @@
         :class="{ active: isActive }"
         class="h-screen w-1/2 fixed top-0 backdrop-blur-3xl z-20 -right-1/2 sideNav hidden max-[600px]:block"
       >
-        <img
+        <NuxtImg
           class="absolute cursor-pointer right-7 top-7"
           @click="toggleActive"
           src="../assets/shared/icon-close.svg"
@@ -63,7 +63,7 @@
           </li>
         </ul>
       </div>
-      <img
+      <NuxtImg
         class="hidden max-[600px]:block pr-10 cursor-pointer"
         src="../assets/shared/icon-hamburger.svg"
         v-if="!isActive"

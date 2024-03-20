@@ -1,6 +1,6 @@
 <template>
   <main>
-    <img :src="store.bgFont" class="w-full h-screen absolute -z-10" />
+    <NuxtImg :src="store.bgFont" class="w-full h-screen absolute -z-10" />
     <nuxt-layout />
     <h1
       class="ml-[10.5rem] my-20 text-3xl font-extralight font-[barlow] tracking-widest max-[1280px]:ml-12 max-[1280px]:my-4 max-[1280px]:text-xl"
@@ -13,9 +13,9 @@
 <script setup lang="ts">
 const store = myStore();
 const imageSources = {
-  small: "_nuxt/assets/crew/background-crew-mobile.jpg",
-  medium: "_nuxt/assets/crew/background-crew-tablet.jpg",
-  large: "_nuxt/assets/crew/background-crew-desktop.jpg",
+  small: "crew/background-crew-mobile.jpg",
+  medium: "crew/background-crew-tablet.jpg",
+  large: "crew/background-crew-desktop.jpg",
 };
 store.setData(imageSources);
 </script>
